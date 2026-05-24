@@ -19,3 +19,25 @@ Bu çalışma, FastAPI framework'ü kullanılarak geliştirilmiştir. Temel amac
 1. Depoyu klonlayın:
    ```bash
    git clone [https://github.com/C49L4/SIFIR-GUVEN-AG-GUVENLIGI-CALISMASI-zero-trust-network-security.git](https://github.com/C49L4/SIFIR-GUVEN-AG-GUVENLIGI-CALISMASI-zero-trust-network-security.git)
+
+2. Sanal ortamı oluşturun ve aktif edin:
+Bash
+python -m venv venv
+source venv/bin/activate
+
+3. Gerekli kütüphaneleri yükleyin:
+Bash
+
+pip install -r requirements.txt
+
+Projeyi başlatın:
+Bash
+
+    uvicorn main:app --reload
+
+🛡️ Güvenlik Katmanı
+
+Proje, istemci ve sunucu arasındaki güven ilişkisini JWT token'ları ile yöneterek, sadece yetkili kullanıcıların korunan rotalara erişmesine izin verir.
+
+
+
