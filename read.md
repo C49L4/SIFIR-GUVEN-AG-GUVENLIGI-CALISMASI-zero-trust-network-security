@@ -21,7 +21,7 @@ Bu çalışma, FastAPI framework'ü kullanılarak geliştirilmiştir. Temel amac
    git clone [https://github.com/C49L4/SIFIR-GUVEN-AG-GUVENLIGI-CALISMASI-zero-trust-network-security.git](https://github.com/C49L4/SIFIR-GUVEN-AG-GUVENLIGI-CALISMASI-zero-trust-network-security.git)
 
 2. Sanal ortamı oluşturun ve aktif edin:
-Bash
+  ```bash
 python -m venv venv
 source venv/bin/activate
 
