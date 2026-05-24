@@ -58,6 +58,4 @@ Proje, istemci ve sunucu arasındaki tüm iletişimi şifreler ve yetkilendirir.
 
 ```
 
-Bunu doğrudan `README.md` dosyana yapıştırıp kaydedebilirsin. Başka bir ihtiyaç olursa buradayım!
 
-```
